@@ -1,0 +1,14 @@
+==============================================================================
+Tasks :: Orders robots from RobotSpareBin Industries Inc. Saves the order H...
+==============================================================================
+Order robots from RobotSpareBin Industries Inc                        | FAIL |
+Button with locator 'locator: WebElement | value: OK' not found.
+------------------------------------------------------------------------------
+{orders}=                                                             | FAIL |
+No keyword with name 'Get orders' found. Did you try using keyword 'RPA.HTTP.GET' and forgot to use enough whitespace between keyword and arguments?
+------------------------------------------------------------------------------
+Tasks :: Orders robots from RobotSpareBin Industries Inc. Saves th... | FAIL |
+2 tasks, 0 passed, 2 failed
+==============================================================================
+Output:  c:\Users\AdamGola\OneDrive - Digital Workforce\Desktop\Robocorp\Robocorp2\output\output.xml
+Log:     c:\Users\AdamGola\OneDrive - Digital Workforce\Desktop\Robocorp\Robocorp2\output\log.html

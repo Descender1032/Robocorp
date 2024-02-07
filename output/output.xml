@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.5 on win32)" generated="20240122 12:28:38.435" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="C:\Users\AdamGola\OneDrive - Digital Workforce\Desktop\Robocorp\Robocorp2\tasks.robot">
+<test id="s1-t1" name="Order robots from RobotSpareBin Industries Inc" line="16">
+<kw name="Open the robot order website">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<msg timestamp="20240122 12:28:39.959" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20240122 12:28:39.993" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:39.995" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:39.996" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20240122 12:28:43.471" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:43.472" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:43.752" level="INFO">Error, unable to get version number for release 120.0.6099, got code: 404</msg>
+<msg timestamp="20240122 12:28:43.753" level="INFO">Failed to parse compatible version: Error, unable to get version number for release 120.0.6099, got code: 404</msg>
+<msg timestamp="20240122 12:28:45.256" level="INFO">Error, unable to get version number for release 120.0.6099, got code: 404</msg>
+<msg timestamp="20240122 12:28:45.256" level="INFO">Failed to parse compatible version: Error, unable to get version number for release 120.0.6099, got code: 404</msg>
+<msg timestamp="20240122 12:28:45.651" level="INFO">Skipping download. File C:\Users\AdamGola\AppData\Local\robocorp\webdrivers\chrome\114.0.5735.90\chromedriver_win32.zip already on filesystem.</msg>
+<msg timestamp="20240122 12:28:45.927" level="INFO">Error, unable to get version number for release 120.0.6099, got code: 404</msg>
+<msg timestamp="20240122 12:28:45.927" level="INFO">Failed to parse compatible version: Error, unable to get version number for release 120.0.6099, got code: 404</msg>
+<msg timestamp="20240122 12:28:46.456" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20240122 12:28:49.881" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<msg timestamp="20240122 12:28:49.887" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:49.888" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:49.889" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<msg timestamp="20240122 12:28:52.955" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:52.955" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:52.972" level="INFO">Error, unable to read current browser version</msg>
+<msg timestamp="20240122 12:28:52.972" level="INFO">Failed to parse compatible version: Error, unable to read current browser version</msg>
+<msg timestamp="20240122 12:28:53.541" level="INFO">Download URL: https://github.com/mozilla/geckodriver/releases/download/v0.34.0/geckodriver-v0.34.0-win64.zip</msg>
+<msg timestamp="20240122 12:28:53.556" level="INFO">Error, unable to read current browser version</msg>
+<msg timestamp="20240122 12:28:53.556" level="INFO">Failed to parse compatible version: Error, unable to read current browser version</msg>
+<msg timestamp="20240122 12:28:53.740" level="INFO">Skipping download. File C:\Users\AdamGola\AppData\Local\robocorp\webdrivers\gecko\v0.34.0\geckodriver-v0.34.0-win64.zip already on filesystem.</msg>
+<msg timestamp="20240122 12:28:53.755" level="INFO">Error, unable to read current browser version</msg>
+<msg timestamp="20240122 12:28:53.756" level="INFO">Failed to parse compatible version: Error, unable to read current browser version</msg>
+<msg timestamp="20240122 12:28:54.002" level="INFO">File C:\Users\AdamGola\AppData\Local\robocorp\webdrivers\geckodriver.exe already exists and will be overwritten.</msg>
+<msg timestamp="20240122 12:28:54.031" level="INFO">Creating an instance of the Edge WebDriver.</msg>
+<msg timestamp="20240122 12:28:54.039" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:54.039" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:54.041" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:28:54.042" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.283" level="INFO">Creating an instance of the Ie WebDriver.</msg>
+<msg timestamp="20240122 12:29:01.287" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.288" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.289" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.290" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.899" level="INFO">Creating an instance of the Opera WebDriver.</msg>
+<msg timestamp="20240122 12:29:01.903" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.904" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:01.905" level="INFO">Creating an instance of the Opera WebDriver.</msg>
+<msg timestamp="20240122 12:29:04.465" level="INFO">Created download root directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:04.466" level="INFO">Created symlink directory: C:\Users\AdamGola\AppData\Local\robocorp\webdrivers</msg>
+<msg timestamp="20240122 12:29:05.135" level="INFO">Download URL: https://github.com/operasoftware/operachromiumdriver/releases/download/v.120.0.6099.200/operadriver_win64.zip</msg>
+<msg timestamp="20240122 12:29:05.136" level="INFO">Skipping download. File C:\Users\AdamGola\AppData\Local\robocorp\webdrivers\operachromium\compatible\operadriver_win64.zip already on filesystem.</msg>
+<msg timestamp="20240122 12:29:05.345" level="INFO">Creating an instance of the Opera WebDriver.</msg>
+<msg timestamp="20240122 12:29:07.956" level="INFO" html="true">&lt;p&gt;Attempted combinations:&lt;/p&gt;&lt;div class="doc"&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Browser&lt;/th&gt;&lt;th&gt;Download&lt;/th&gt;&lt;th&gt;Error&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Firefox&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'geckodriver' executable needs to be in PATH. 
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Firefox&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;[Errno 13] Permission denied: 'C:\\Users\\AdamGola\\AppData\\Local\\robocorp\\webdrivers\\geckodriver.exe'&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Edge&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'MicrosoftWebDriver.exe' executable needs to be in PATH. Please download from http://go.microsoft.com/fwlink/?LinkId=619687
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Edge&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;expected str, bytes or os.PathLike object, not NoneType&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ie&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'IEDriverServer.exe' executable needs to be in PATH. Please download from http://selenium-release.storage.googleapis.com/index.html and read up at https://github.com/SeleniumHQ/selenium/wiki/InternetExplorerDriver
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ie&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;'NoneType' object has no attribute 'group'&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Opera&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;Message: 'operadriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Opera&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;Message: unknown error: cannot find Opera binary
+  (Driver info: operadriver=120.0.6099.200 (ee5f9035a08a8d673f4304eb6b707fdc909712fd-refs/branch-heads/6099@{#1670}),platform=Windows NT 10.0.19045 x86_64)
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;</msg>
+<kw name="Capture Page Screenshot" library="RPA.Browser.Selenium">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20240122 12:29:07.959" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20240122 12:29:07.958" endtime="20240122 12:29:07.959"/>
+</kw>
+<msg timestamp="20240122 12:29:07.959" level="INFO">C:\Users\AdamGola\AppData\Local\robocorp\holotree\b1f3c244e_691db988\lib\site-packages\bs4\builder\__init__.py:546: XMLParsedAsHTMLWarning: It looks like you're parsing an XML document using an HTML parser. If this really is an HTML document (maybe it's XHTML?), you can ignore or filter this warning. If it's XML, you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the lxml package installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+  XMLParsedAsHTMLWarning.MESSAGE, XMLParsedAsHTMLWarning</msg>
+<msg timestamp="20240122 12:29:07.962" level="FAIL">BrowserNotFoundError: Failed to start a browser:
+- Chrome: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+
+- Firefox: [Errno 13] Permission denied: 'C:\\Users\\AdamGola\\AppData\\Local\\robocorp\\webdrivers\\geckodriver.exe'
+- Edge: expected str, bytes or os.PathLike object, not NoneType
+- Ie: 'NoneType' object has no attribute 'group'
+- Opera: Message: unknown error: cannot find Opera binary
+  (Driver info: operadriver=120.0.6099.200 (ee5f9035a08a8d673f4304eb6b707fdc909712fd-refs/branch-heads/6099@{#1670}),platform=Windows NT 10.0.19045 x86_64)
+
+</msg>
+<status status="FAIL" starttime="20240122 12:28:39.958" endtime="20240122 12:29:07.967"/>
+</kw>
+<status status="FAIL" starttime="20240122 12:28:39.958" endtime="20240122 12:29:07.969"/>
+</kw>
+<kw name="Get orders">
+<var>${orders}</var>
+<status status="NOT RUN" starttime="20240122 12:29:07.970" endtime="20240122 12:29:07.971"/>
+</kw>
+<for flavor="IN">
+<var>${order}</var>
+<value>@{orders}</value>
+<iter>
+<var name="${order}"/>
+<kw name="Close the annoying modal">
+<status status="NOT RUN" starttime="20240122 12:29:07.972" endtime="20240122 12:29:07.972"/>
+</kw>
+<kw name="Fill the form">
+<arg>${order}</arg>
+<status status="NOT RUN" starttime="20240122 12:29:07.973" endtime="20240122 12:29:07.973"/>
+</kw>
+<kw name="Preview robot">
+<status status="NOT RUN" starttime="20240122 12:29:07.973" endtime="20240122 12:29:07.973"/>
+</kw>
+<kw name="Take screenshot of image">
+<var>${screenshot}</var>
+<arg>${order}[Order number]</arg>
+<status status="NOT RUN" starttime="20240122 12:29:07.973" endtime="20240122 12:29:07.973"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" library="BuiltIn">
+<arg>5x</arg>
+<arg>0.5 sec</arg>
+<arg>Submit order</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="NOT RUN" starttime="20240122 12:29:07.974" endtime="20240122 12:29:07.975"/>
+</kw>
+<kw name="Collect the results">
+<arg>${order}[Order number]</arg>
+<arg>${screenshot}</arg>
+<status status="NOT RUN" starttime="20240122 12:29:07.976" endtime="20240122 12:29:07.976"/>
+</kw>
+<kw name="Order another robot">
+<status status="NOT RUN" starttime="20240122 12:29:07.977" endtime="20240122 12:29:07.977"/>
+</kw>
+<status status="NOT RUN" starttime="20240122 12:29:07.972" endtime="20240122 12:29:07.977"/>
+</iter>
+<status status="NOT RUN" starttime="20240122 12:29:07.972" endtime="20240122 12:29:07.977"/>
+</for>
+<kw name="Archive output PDFs">
+<status status="NOT RUN" starttime="20240122 12:29:07.978" endtime="20240122 12:29:07.979"/>
+</kw>
+<kw name="[Teardown] Close Browser">
+<status status="NOT RUN" starttime="20240122 12:29:07.980" endtime="20240122 12:29:07.980"/>
+</kw>
+<status status="FAIL" starttime="20240122 12:28:39.956" endtime="20240122 12:29:07.982">BrowserNotFoundError: Failed to start a browser:
+- Chrome: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+
+- Firefox: [Errno 13] Permission denied: 'C:\\Users\\AdamGola\\AppData\\Local\\robocorp\\webdrivers\\geckodriver.exe'
+- Edge: expected str, bytes or os.PathLike object, not NoneType
+- Ie: 'NoneType' object has no attribute 'group'
+- Opera: Message: unknown error: cannot find Opera binary
+  (Driver info: operadriver=120.0.6099.200 (ee5f9035a08a8d673f4304eb6b707fdc909712fd-refs/branch-heads/6099@{#1670}),platform=Windows NT 10.0.19045 x86_64)
+
+</status>
+</test>
+<doc>Orders robots from RobotSpareBin Industries Inc.
+Saves the order HTML receipt as a PDF file.
+Saves the screenshot of the ordered robot.
+Embeds the screenshot of the robot to the PDF receipt.
+Creates ZIP archive of the receipts and the images.</doc>
+<status status="FAIL" starttime="20240122 12:28:38.440" endtime="20240122 12:29:07.986"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
